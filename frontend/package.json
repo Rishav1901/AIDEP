@@ -11,7 +11,6 @@
     "server": "cd ../backend && npm run dev",
     "dev2": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm run dev\" \"npm run server\""
   },
-  
   "dependencies": {
     "axios": "^1.6.7",
     "concurrently": "^8.2.2",

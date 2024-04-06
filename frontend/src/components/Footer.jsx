@@ -55,14 +55,7 @@ const Footer = () => {
           </div>
           <div>
             <h4>Hours</h4>
-            <ul>
-              {hours.map((element) => (
-                <li key={element.id}>
-                  <span>{element.day}</span>
-                  <span>{element.time}</span>
-                </li>
-              ))}
-            </ul>
+            
           </div>
           <div>
             <h4>Contact</h4>
